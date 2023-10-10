@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj": {}
+    "C:\\for_jinghao_personel\\trackingapi\\trackingapi\\trackingapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj": {
+    "C:\\for_jinghao_personel\\trackingapi\\trackingapi\\trackingapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj",
+        "projectUniqueName": "C:\\for_jinghao_personel\\trackingapi\\trackingapi\\trackingapi.csproj",
         "projectName": "trackingapi",
-        "projectPath": "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj",
+        "projectPath": "C:\\for_jinghao_personel\\trackingapi\\trackingapi\\trackingapi.csproj",
         "packagesPath": "C:\\Users\\jinghao.yong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\obj\\",
+        "outputPath": "C:\\for_jinghao_personel\\trackingapi\\trackingapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jinghao.yong\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,16 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
