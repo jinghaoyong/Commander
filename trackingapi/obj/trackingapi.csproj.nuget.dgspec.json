@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\for_jinghao_personel\\Commander\\Commander.csproj": {}
+    "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj": {}
   },
   "projects": {
-    "C:\\for_jinghao_personel\\Commander\\Commander.csproj": {
+    "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\for_jinghao_personel\\Commander\\Commander.csproj",
-        "projectName": "Commander",
-        "projectPath": "C:\\for_jinghao_personel\\Commander\\Commander.csproj",
+        "projectUniqueName": "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj",
+        "projectName": "trackingapi",
+        "projectPath": "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\trackingapi.csproj",
         "packagesPath": "C:\\Users\\jinghao.yong\\.nuget\\packages\\",
-        "outputPath": "C:\\for_jinghao_personel\\Commander\\obj\\",
+        "outputPath": "C:\\Users\\jinghao.yong\\source\\repos\\trackingapi\\trackingapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jinghao.yong\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
@@ -26,8 +26,8 @@
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -38,13 +38,9 @@
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[7.0.11, )"
-            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
